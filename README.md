@@ -22,6 +22,16 @@ Source code: [`Dart/apk 1/lib/DataCol.dart`](Dart/apk%201/lib/DataCol.dart)
 
 ![Screenshot Data Collection](docs/screenshots/screenshoot_Data_Collection.png)
 
+## Hasil UTS
+
+Program UTS mengolah data siswa, nilai, kata, dan riwayat aktivitas.
+
+Source code fungsi: [`Dart/apk 1/lib/uts_1.dart`](Dart/apk%201/lib/uts_1.dart#L5-L47)
+
+Fungsi dipanggil dari `main()` di [`Dart/apk 1/bin/apk.dart`](Dart/apk%201/bin/apk.dart#L3-L23): `tambahSiswa` (baris 9), `simpanHistory` (baris 10), `nilaiUnik` (baris 14), `hitungTotal` (baris 15), `hitungRataRata` (baris 16), `ubahKapital` (baris 19), dan `tampilkanHistory` (baris 22). Fungsi `buatDataSiswa` dan `cekKunci` sudah tersedia di file fungsi, tetapi belum dipanggil dari `main()`.
+
+![Screenshot hasil UTS](docs/screenshots/screenshoot_hasil_uts.png)
+
 ## Splash Screen
 
 Tampilan splash screen dengan logo aplikasi.
